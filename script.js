@@ -26,7 +26,7 @@ for(let i=0;i<showModal.length;i++){
     })
 }
 
-closeModal.addEventListener("click",function(){
-    modal.classList
-})
+closeModal.addEventListener("click",clear);
+
+overlay.addEventListener("click",clear)
 
