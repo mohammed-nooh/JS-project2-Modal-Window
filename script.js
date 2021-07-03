@@ -30,3 +30,8 @@ closeModal.addEventListener("click",clear);
 
 overlay.addEventListener("click",clear)
 
+// key press event
+
+document.addEventListener("keydown",function(event){
+    console.log(event,event.key);
+})
