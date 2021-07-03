@@ -33,5 +33,9 @@ overlay.addEventListener("click",clear)
 // key press event
 
 document.addEventListener("keydown",function(event){
-    console.log(event,event.key);
+    if(event.key==="Escape"&&
+    !modal.classList.contains("hidden")
+    ){
+        clear();
+    }
 })
