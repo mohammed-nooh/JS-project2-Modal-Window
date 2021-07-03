@@ -1,9 +1,17 @@
 "use strict";
 
 
+const clear=function(){
+    modal.classList.add("hidden");
+    overlay.classList.add("hidden");
+}
+
+
 const modal=document.querySelector(".modal");
 
 const overlay=document.querySelector(".overlay");
+
+const closeModal=document.querySelector(".close-modal")
 
 const showModal=document.querySelectorAll(".show-modal");
 
@@ -18,5 +26,7 @@ for(let i=0;i<showModal.length;i++){
     })
 }
 
-
+closeModal.addEventListener("click",function(){
+    modal.classList
+})
 
